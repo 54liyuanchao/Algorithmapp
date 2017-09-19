@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.a54liyuanchao.yuanchaoapp.Fragment_Datastructure">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.dd.CircularProgressButton
+        android:id="@+id/LinkedLists"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Linked Lists"
+
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/BinaryTrees"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Binary Trees"
+
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/Stacks"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Stacks"
+
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/Queues"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Queues"
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/ArrayLists"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="ArrayLists"
+        />
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/HashTables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Hash Tables" />
+</LinearLayout>

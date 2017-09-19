@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bfsp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a54liyuanchao.yuanchaoapp.Fragment_BFS_P">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <pl.droidsonroids.gif.GifTextView
+                android:id="@+id/gif_bfs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gifbfs" />
+
+            <TextView
+                android:id="@+id/textView_bfsp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gif_bfs"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+            <View
+                android:layout_width="360dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="205sp"
+                android:background="#C0C0C0" />
+            <View
+                android:layout_width="360dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="390sp"
+                android:background="#C0C0C0" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

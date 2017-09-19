@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.a54liyuanchao.yuanchaoapp.Fragment_Algorithm">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/BreadthFirstSearch"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Breadth First Search"
+
+    />
+    <com.dd.CircularProgressButton
+        android:id="@+id/DepthFirstSearch"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Depth First Search"
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/BinarySearch"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Binary Search"
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/MergeSort"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Merge Sort"
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/QuickSort"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Quick Sort"
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/Tree"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Tree Insert/find/etc"
+        />
+
+
+
+</LinearLayout>

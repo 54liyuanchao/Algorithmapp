@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.a54liyuanchao.yuanchaoapp.Fragment_Concept">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.dd.CircularProgressButton
+        android:id="@+id/BitManipulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cpb_cornerRadius="48dp"
+
+        app:cpb_textIdle="Bit Manipulation" />
+    <com.dd.CircularProgressButton
+        android:id="@+id/SingletonDesignPattern"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Singleton Design Pattern"
+
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/FactoryDesignPattern"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Factory Design Pattern"
+
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/Memery"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Memery(Stack vs Heap)"
+        />
+    <com.dd.CircularProgressButton
+        android:id="@+id/Recursion"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Recursion"
+        />
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/BigOTimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_textIdle="Big-Time" />
+</LinearLayout>

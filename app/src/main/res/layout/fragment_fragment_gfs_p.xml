@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a54liyuanchao.yuanchaoapp.Fragment_gfs_p">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <pl.droidsonroids.gif.GifTextView
+                android:id="@+id/gifdfs"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/gifdfs"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/view"
+                android:layout_alignEnd="@+id/view" />
+
+            <TextView
+                android:id="@+id/textView_gfsp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gifdfs"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+            <View
+                android:layout_width="360dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="505sp"
+                android:background="#C0C0C0" />
+            <View
+                android:layout_width="360dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="390sp"
+                android:background="#C0C0C0"
+                android:id="@+id/view" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
