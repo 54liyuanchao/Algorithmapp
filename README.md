@@ -10,11 +10,18 @@ Visualizations
 The following visualizations are available
 
 Breadth first search
+
 Depth first search
+
 Binary search
+
 Merge sort
+
 Quick sort
+
 Linked list
+
 Binary tree
+
 Recursion
 
